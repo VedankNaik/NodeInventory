@@ -1,1 +1,1 @@
-# todo-app
+# inventory-app
