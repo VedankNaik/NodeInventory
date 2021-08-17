@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <div class="container">
+      <h4>Item details</h4>
+      <div>
+        <h5>Item Name: <%= items.name %></h5>
+        <h5>Price: &#8377;<%= items.price %></h5>
+      </div>
+      <a href="/itemdelete/<%=items._id%>" class="delete btn">Deletes</a>
+    </div>
+  </body>
+</html>
